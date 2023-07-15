@@ -50,6 +50,7 @@ def classify_text(text):
         return "욕설이 아닙니다."
 
 # 사용자 입력 텍스트 분류
-user_input = input("텍스트를 입력하세요: ")
-result = classify_text(user_input)
-print(result)
+while(1):
+    user_input = input("텍스트를 입력하세요: ")
+    result = classify_text(user_input)
+    print(result)
